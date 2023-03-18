@@ -1,10 +1,26 @@
 import React from 'react';
 import Box from '@mui/material/Box';
+import Divider from '@mui/material/Divider';
 
 const Footer = () => {
   return (
-    <Box sx={{ width: '100%', height: 'fit-content', bgcolor: 'yellow' }}>
-      Footer
+    <Box
+      sx={{
+        display: 'flex',
+        width: '100%',
+        height: 'fit-content',
+        bgcolor: 'yellow',
+        pt: 2,
+        justifyContent: 'space-around',
+        alignItems: 'center',
+      }}
+    >
+      <Box sx={{ width: '40%' }}>Footer</Box>
+      <Divider
+        orientation="vertical"
+        sx={{ color: 'Black', height: '200px' }}
+      />
+      <Box sx={{ width: '40%' }}>Footer</Box>
     </Box>
   );
 };
