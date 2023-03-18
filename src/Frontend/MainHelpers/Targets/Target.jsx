@@ -15,7 +15,6 @@ const Target = () => {
           <InfoTarget />
           <InfoTarget />
           <InfoTarget />
-          <InfoTarget />
         </Grid>
       </Grid>
 
@@ -25,7 +24,6 @@ const Target = () => {
           xs={12}
           sx={{ display: 'flex', justifyContent: 'space-between' }}
         >
-          <InfoTarget />
           <InfoTarget />
           <InfoTarget />
           <InfoTarget />
