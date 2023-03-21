@@ -9,7 +9,7 @@ const Footer = () => {
         display: 'flex',
         width: '100%',
         height: 'fit-content',
-        bgcolor: 'yellow',
+        bgcolor: '#85E3E9',
         pt: 2,
         justifyContent: 'space-around',
         alignItems: 'center',
