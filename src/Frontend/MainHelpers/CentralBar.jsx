@@ -16,7 +16,7 @@ const CentralBar = () => {
       <Box
         sx={{
           display: 'flex',
-          bgcolor: 'steelblue',
+          bgcolor: '#6ab6ba',
           width: '80%',
           height: '70%',
           justifyContent: 'center',

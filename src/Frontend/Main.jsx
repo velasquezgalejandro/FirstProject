@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Target from './MainHelpers/Targets/Target';
 import CentralBar from './MainHelpers/CentralBar';
+import Social from './MainHelpers/Social';
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
     >
       <Target />
       <CentralBar />
+      <Social />
     </Box>
   );
 };

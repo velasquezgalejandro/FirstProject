@@ -4,7 +4,7 @@ import InfoTarget from './InfoTarget';
 
 const Target = () => {
   return (
-    <Grid container direction="column">
+    <Grid container direction="column" sx={{ width: '60%' }}>
       <Grid container direction="row">
         <Grid
           item
