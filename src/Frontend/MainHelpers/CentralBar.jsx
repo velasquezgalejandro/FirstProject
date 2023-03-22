@@ -11,6 +11,7 @@ const CentralBar = () => {
         height: '100px',
         justifyContent: 'center',
         alignItems: 'center',
+        mt: 0.5,
       }}
     >
       <Box

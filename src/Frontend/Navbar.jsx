@@ -19,7 +19,7 @@ const Navbar = () => {
               Nombre (por definir) icono icono icono
             </Grid>
             <Grid xs={2} item>
-              Usuario
+              Catalogo
             </Grid>
           </Grid>
         </Toolbar>
