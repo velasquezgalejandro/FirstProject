@@ -1,6 +1,8 @@
 import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Grid from '@mui/material/Grid';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import Toolbar from '@mui/material/Toolbar';
 
 const Navbar = () => {
@@ -15,11 +17,19 @@ const Navbar = () => {
             <Grid xs={3} item>
               Logo
             </Grid>
-            <Grid xs={7} item>
-              Nombre (por definir) icono icono icono
+            <Grid
+              xs={7}
+              item
+              sx={{ display: 'flex', justifyContent: 'space-between' }}
+            >
+              Nombre (por definir)
+              <Box>
+                <Button>Tendencias </Button>
+                <Button>Últimos agregados</Button>
+              </Box>
             </Grid>
             <Grid xs={2} item>
-              Catalogo
+              <Button>Catalogo</Button>
             </Grid>
           </Grid>
         </Toolbar>
