@@ -4,8 +4,19 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Toolbar from '@mui/material/Toolbar';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+  const linkCss = { textDecoration: 'none' };
+
+  const cssButtons = {
+    bgcolor: '#D6F1EE',
+    borderRadius: 2,
+    textDecoration: 'none',
+    mr: 1,
+    ':hover': { bgcolor: '#1BAAD6', color: 'black' },
+  };
+
   return (
     <Grid sx={{ flexGrow: 1 }}>
       <AppBar
@@ -24,12 +35,18 @@ const Navbar = () => {
             >
               Nombre (por definir)
               <Box>
-                <Button>Tendencias </Button>
-                <Button>Últimos agregados</Button>
+                <Link to={'/tendencias'} style={linkCss}>
+                  <Button sx={cssButtons}>Tendencias </Button>
+                </Link>
+                <Link to={'/ultimos-agregados'} style={linkCss}>
+                  <Button sx={cssButtons}>Últimos agregados</Button>
+                </Link>
               </Box>
             </Grid>
             <Grid xs={2} item>
-              <Button>Catalogo</Button>
+              <Link to={'/catalogo'} style={linkCss}>
+                <Button sx={{ ...cssButtons, ml: 2 }}>Catálogo</Button>
+              </Link>
             </Grid>
           </Grid>
         </Toolbar>
