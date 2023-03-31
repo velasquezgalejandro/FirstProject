@@ -7,7 +7,9 @@ function App() {
   return (
     <Router>
       <Routes>
-          <Route exact path="/" component={Home} />
+        {/* <Route  path="/" component={<Home />} > */}
+        <Route path="/" element={<Home />} exact />
+        {/* </Route> */}
       </Routes>
     </Router>
   );

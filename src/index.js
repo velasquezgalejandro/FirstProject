@@ -2,11 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import Box from '@mui/material/Box';
-
-// import Navbar from './Frontend/Navbar';
-// import Main from './Frontend/Main';
-// import Footer from './Frontend/Footer';
-// import Home from './Frontend/Home';
 import App from './App';
 
 import reportWebVitals from './reportWebVitals';
